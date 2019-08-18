@@ -8,9 +8,9 @@ import 'bootstrap/dist/css/bootstrap.css'
 // Mbanq API Client
 import Mbanq from '@mbanq/api'
 const mbanqClient = new Mbanq({
-  tenantId: '',
-  clientId: '',
-  clientSecret: ''
+  tenantId: process.env.VUE_APP_TENANT_ID,
+  clientId: process.env.VUE_APP_CLIENT_ID,
+  clientSecret: process.env.VUE_APP_CLIENT_SECRET
 })
 
 Vue.use(BootstrapVue)

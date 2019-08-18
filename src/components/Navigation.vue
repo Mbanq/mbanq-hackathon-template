@@ -10,7 +10,7 @@
       <b-collapse is-nav id="nav_collapse">
 
         <b-navbar-nav>
-          <b-nav-item href="https://github.com/mbanq/mbanq-api-client">API Client</b-nav-item>
+          <b-nav-item href="https://github.com/mbanq/mbanq-api-client" target="_blank">API Client</b-nav-item>
           <b-nav-item href="https://api-docs.cloud.mbanq.com" target="_blank">API Documentation</b-nav-item>
         </b-navbar-nav>
 
