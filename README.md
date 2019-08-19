@@ -11,20 +11,18 @@ initialize the `Mbanq API Client` with your:
 - `clientSecret`
 
 ## How do I start?
-1. Fork the repo
-2. Run `npm install` (or `npm i`)
-3. Head over to https://labs.mbanq.io/hackathon and follow the steps to create your Core Banking Instance and the App for the API access
-4. Open `.env` in your favorite text editor and add your:
+- Fork the repo
+- Run `npm install` (or `npm i`)
+- Head over to https://labs.mbanq.io/hackathon and follow the steps to create your Core Banking Instance and the App for the API access
+- Open `.env` in your favorite text editor and add your:
   - `tenantId`
   - `clientId`
   - `clientSecret`
-5. Start the frontend App with `npm start`
-6. Use following credentials to login:
-  - `username`: *web1*
-  - `password`: *password* or
-  - `username`: *web2*
-  - `password`: *password*
-
+- Start the frontend App with `npm start`
+- Use following credentials to login:
+  - `username`: *web1*, `password`: *password*
+  - `username`: *web2*, `password`: *password*
+## How do I start?
 
 # Please note
 > It only gives you a limited set of functionality - you can use it to get
