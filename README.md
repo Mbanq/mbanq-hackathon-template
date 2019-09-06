@@ -11,7 +11,7 @@ initialize the `Mbanq API Client` with your:
 - `clientSecret`
 
 ## How do I start?
-- Fork the repo
+- Clone the repo
 - Run `npm install` (or `npm i`)
 - Head over to https://labs.mbanq.io/hackathon and follow the steps to create your Core Banking Instance and the App for the API access
 - Open `.env` in your favorite text editor and add your:

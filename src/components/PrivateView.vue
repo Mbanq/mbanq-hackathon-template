@@ -66,12 +66,16 @@ export default {
   },
   methods: {
     async callApi (method) {
-      this.method = method
-      if (method === 'accounts') {
-        this.response = await this.$api.accounts(11)
-        return
+      try {
+        this.method = method
+        if (method === 'accounts') {
+          this.response = await this.$api.accounts(11)
+          return
+        }
+        this.response = await this.$api[method].call()
+      } catch (error) {
+        return console.log(error)
       }
-      this.response = await this.$api[method].call()
     },
     logout () {
       window.localStorage.clear()
