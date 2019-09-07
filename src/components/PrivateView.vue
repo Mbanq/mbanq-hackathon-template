@@ -60,7 +60,7 @@ export default {
         accounts: `<h1>Accounts documentation</h1>
         In order to get the accounts for currently logged in user, you have to call the accounts function with the clientId:
         <strong>this.$api.accounts(11)`,
-        transfer: 'Transfer documentation'
+        transfer: `Please refer to the <a href="https://github.com/Mbanq/mbanq-api-client#creating-a-transfer" target="_blank">mbanq-api-client documentation</a>`
       }
     }
   },
