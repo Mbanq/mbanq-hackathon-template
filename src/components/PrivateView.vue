@@ -64,6 +64,9 @@ export default {
       }
     }
   },
+  async created () {
+    console.log(this.$localStorage.authenticated)
+  },
   methods: {
     async callApi (method) {
       try {
@@ -79,7 +82,7 @@ export default {
     },
     logout () {
       window.localStorage.clear()
-      this.$localStorage.authenticated = false
+      this.$localStorage.authenticated = 'false'
     }
   },
   filters: {

@@ -35,6 +35,7 @@
             <b-form-input
               id="password"
               v-model="credentials.password"
+              type="password"
               required
               placeholder="Enter your password"
             ></b-form-input>
@@ -64,7 +65,7 @@ export default {
     async login (evt) {
       try {
         await this.$mbanq.auth(this.credentials)
-        this.$localStorage.authenticated = true
+        this.$localStorage.authenticated = 'true'
       } catch (error) {
         return console.log(error)
       }
