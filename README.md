@@ -26,7 +26,7 @@ initialize the `Mbanq API Client` with your:
 
 # Please note
 > It only gives you a limited set of functionality - you can use it to get
-sstarted. If you feel that you need more functionality, you can always fall back to the Mbanq API.
+started. If you feel that you need more functionality, you can always fall back to the Mbanq API.
 
 If you would like to use the <a href="https://github.com/Mbanq/mbanq-api-client" target="_blank">mbanq-api-client</a> in your own frontend project
 you can install it with `npm`:
