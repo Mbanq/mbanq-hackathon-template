@@ -23,9 +23,6 @@ export default {
     PublicView,
     PrivateView
   },
-  created () {
-    console.log(this.$localStorage.authenticated)
-  },
   computed: {
     authenticated () {
       return this.$localStorage.authenticated === 'true'
